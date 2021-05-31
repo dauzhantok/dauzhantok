@@ -1,0 +1,15 @@
+---
+application:
+  name: "dauzhantok"
+  project: "dauzhantok"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "dadaya"
+  version: "11"
+routers:
+- name: "main-dauzhantok"
+  routes:
+  - application_name: "dauzhantok"
+    paths:
+    - "/*"
